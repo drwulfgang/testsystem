@@ -65,6 +65,6 @@
   "primaryTokenAttribute": "resources.move",
   "secondaryTokenAttribute": "resources.strength",
   "url": "", //A public URL that links to the repository or documentation pages for the game system. This link will be displayed for users to allow them to find more information about your system.
-  "manifest": "https://github.com/drwulfgang/testsystem/blob/main/system.json", // A stable URL that describes the latest release version of your system manifest file. This URL is used for automatic system installation in the Foundry VTT setup screen. This manifest URL is consulted during the system update check to see whether a new system version is available for download. It is important that this address remain stable, otherwise, updates will not be detected.
+  "manifest": "https://github.com/drwulfgang/testsystem/blob/0dd2bf6f165510b0fb3b1a37b493bfab1471fac0/system.json", // A stable URL that describes the latest release version of your system manifest file. This URL is used for automatic system installation in the Foundry VTT setup screen. This manifest URL is consulted during the system update check to see whether a new system version is available for download. It is important that this address remain stable, otherwise, updates will not be detected.
   "download": "" // A public URL that provides a zip archive of your system. The archive at this URL is retrieved during the automated system installation or update process.
 }
