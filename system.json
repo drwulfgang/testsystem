@@ -15,7 +15,7 @@
     // "styles/system-styles-1.css",
   ],
   "packs": [
-   /* {
+    /* {
       "name": "monsters", //The compendium pack name - this should be a unique lower-case string with no special characters.
       "label": "Monsters", //The compendium pack label - this should be a human-readable string label that is displayed in the Compendium sidebar in-game.
       "system": "mysystem", //Since you are creating compendium content specifically for your system, be sure to reference that the content inside each compendium pack requires the system by providing the system name that you chose.
@@ -50,20 +50,21 @@
       "name": "module2"
     }*/
   ],
-  "languages": [/*
+  "languages": [ /*
     {
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
     }
-  */],
+  */
+  ],
   "socket": false,
   //"initiative": "1d20",
   "gridDistance": 1,
   "gridUnits": "sq",
   "primaryTokenAttribute": "resources.move",
   "secondaryTokenAttribute": "resources.strength",
-  "url": "",//A public URL that links to the repository or documentation pages for the game system. This link will be displayed for users to allow them to find more information about your system.
-  "manifest": "",// A stable URL that describes the latest release version of your system manifest file. This URL is used for automatic system installation in the Foundry VTT setup screen. This manifest URL is consulted during the system update check to see whether a new system version is available for download. It is important that this address remain stable, otherwise, updates will not be detected.
-  "download": ""// A public URL that provides a zip archive of your system. The archive at this URL is retrieved during the automated system installation or update process.
+  "url": "", //A public URL that links to the repository or documentation pages for the game system. This link will be displayed for users to allow them to find more information about your system.
+  "manifest": "https://github.com/drwulfgang/testsystem/blob/main/system.json", // A stable URL that describes the latest release version of your system manifest file. This URL is used for automatic system installation in the Foundry VTT setup screen. This manifest URL is consulted during the system update check to see whether a new system version is available for download. It is important that this address remain stable, otherwise, updates will not be detected.
+  "download": "" // A public URL that provides a zip archive of your system. The archive at this URL is retrieved during the automated system installation or update process.
 }
