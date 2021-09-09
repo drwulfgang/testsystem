@@ -1,0 +1,19 @@
+{
+  "Actor": {
+    "types": [ "player" ],
+    "player": {
+      "resources": {
+        "move": {
+          "min": 0,
+          "value": 6,
+          "max": 10
+        },
+        "strength": {
+          "min": 0,
+          "value": 3,
+          "max": 8
+        }
+      }
+    }
+  }
+}

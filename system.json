@@ -1,0 +1,69 @@
+{
+  "name": "testsystem", //all lower case no special characters
+  "title": "Test World",
+  "description": "Many details here.",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "author": "John Doe",
+  "scripts": [
+    //"scripts/system-script-1.js",
+  ],
+  "esmodules": [
+    //"scripts/system-module-1.mjs"
+  ],
+  "styles": [
+    // "styles/system-styles-1.css",
+  ],
+  "packs": [
+   /* {
+      "name": "monsters", //The compendium pack name - this should be a unique lower-case string with no special characters.
+      "label": "Monsters", //The compendium pack label - this should be a human-readable string label that is displayed in the Compendium sidebar in-game.
+      "system": "mysystem", //Since you are creating compendium content specifically for your system, be sure to reference that the content inside each compendium pack requires the system by providing the system name that you chose.
+      "module": "mysystem", //The module attribute of each compendium pack designates which content module provided the pack, since this pack is coming from the system itself we can once again provide the system name.
+      "path": "packs/monsters.db",
+      "entity": "Actor" //Each compendium pack must designate a specific Entity type that it contains. Valid entities include Actor, Item, or Scene.
+    } ,
+        {
+            "name": "items",
+            "label": "Items",
+            "system": "mysystem",
+            "module": "mysystem",
+            "path": "packs/items.db",
+            "entity": "Item"
+        }
+    */
+  ],
+  "dependencies": [ //Systems can require other modules, systems, or worlds to be installed to allow their use. If a module has been installed with dependencies, but its dependencies are missing, it cannot be enabled.
+    /* {
+      "name": "system1", //Dependency entries require the name attribute. If only a name is provided, additional details about the module will be discovered from the Foundry VTT website listing.
+      "type": "system" // The type attribute instructs Foundry that the dependency may be on a different type of module. By default, dependencies are assumed to be a module, so if you want to depend on a system or world you should be explicit.
+    },
+    {
+      "name": "world1",
+      "type": "world"
+    },
+    {
+      "name": "module1",
+      "manifest": "https://web/location/module1/manifest.json" //The manifest attribute provides an explicit manifest URL to be used for downloading the dependency. If a manifest is not provided, the dependency package must exist in the Foundry website directory.
+    },
+    {
+      "name": "module2"
+    }*/
+  ],
+  "languages": [/*
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  */],
+  "socket": false,
+  //"initiative": "1d20",
+  "gridDistance": 1,
+  "gridUnits": "sq",
+  "primaryTokenAttribute": "resources.move",
+  "secondaryTokenAttribute": "resources.strength",
+  "url": "",//A public URL that links to the repository or documentation pages for the game system. This link will be displayed for users to allow them to find more information about your system.
+  "manifest": "",// A stable URL that describes the latest release version of your system manifest file. This URL is used for automatic system installation in the Foundry VTT setup screen. This manifest URL is consulted during the system update check to see whether a new system version is available for download. It is important that this address remain stable, otherwise, updates will not be detected.
+  "download": ""// A public URL that provides a zip archive of your system. The archive at this URL is retrieved during the automated system installation or update process.
+}
